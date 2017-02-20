@@ -14,7 +14,7 @@ module OmniAuth
       autoload :ValidationError,        'omniauth/strategies/wsfed/validation_error'
       autoload :XMLSecurity,            'omniauth/strategies/wsfed/xml_security'
 
-      WS_TRUST        = 'http://schemas.xmlsoap.org/ws/2005/02/trust'
+      WS_TRUST        = 'http://docs.oasis-open.org/ws-sx/ws-trust/200512'
       WS_POLICY       = 'http://schemas.xmlsoap.org/ws/2004/09/policy'
       WS_ADDRESSING   = 'http://www.w3.org/2005/08/addressing'
 
